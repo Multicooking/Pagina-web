@@ -84,3 +84,118 @@ button:hover {
 h2 {
     margin-bottom: 20px;
 }
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2837;
+    color: #ffffff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #8c52ff;
+}
+
+/* Sección de productos */
+.catalogo {
+    padding: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    border: 2px solid #8c52ff;
+    padding: 15px;
+    border-radius: 8px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+}
+
+.producto h3 {
+    margin: 10px 0 5px 0;
+    color: #1f2837;
+}
+
+.producto p {
+    margin: 0;
+}
+
+/* Sección Quiénes Somos */
+.quienes-somos {
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-mediano {
+    height: 150px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.info-empresa p {
+    margin: 10px 0;
+}
+
+/* Sección del carrito */
+.carrito {
+    padding: 20px;
+}
+
+#contenidoCarrito {
+    margin-bottom: 10px;
+}
+
+/* Sección de contacto */
+.contacto {
+    padding: 20px;
+}
